@@ -7,6 +7,21 @@ header{
     height: 50px;
     padding: 10px;
     background-color: rgb(236, 124, 31);
+    display: flex;
+}
+header ul{
+    margin-left:300px; 
+    width: 70%;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+header ul li{
+    list-style: none;
+    margin: 10px;
+}
+header ul li a{
+    text-decoration: none;
 }
 body{
     background-image: url("/images/Africa-Culture.jpg");

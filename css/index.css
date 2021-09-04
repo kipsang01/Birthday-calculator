@@ -24,3 +24,33 @@ body{
 h1{
     font-family: 'Pacifico', cursive;
 }
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+    margin-bottom: 0px;
+}
+footer p{
+    margin-right: 500px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-youtube {
+    color: rgb(235, 15, 15);
+  }
+  .fa-facebook {
+    color: rgb(0, 108, 250);
+  }
+  .fa-youtube {
+    color: rgb(235, 15, 15);
+  }

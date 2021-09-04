@@ -1,6 +1,14 @@
 *{
-    font-family: 'Sofadi One', cursive;
+    font-family: 'Poppins', sans-serif;
     line-height: 2.5em;
+    
+}
+header{
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(236, 124, 31);
+}
+body{
     background-image: url("/images/Africa-Culture.jpg");
 }
 .container{

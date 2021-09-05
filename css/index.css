@@ -24,7 +24,7 @@ header ul li a{
     text-decoration: none;
 }
 body{
-    background-image: url("/images/Africa-Culture.jpg");
+    background-image: url("../images/Africa-Culture.jpg");
 }
 .container{
     margin: auto;

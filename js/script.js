@@ -8,6 +8,9 @@ function calculateDay(){
         var yy = parseInt(year.slice(2, 4));
         return Math.floor((((cc/4)-2*cc-1) + ((5*yy/4)) + ((26*(mm+1)/10)) + dd)%7);
 }
+function genderName(){
+    
+}
 function displayName(){
     var gender = (document.getElementById('Gender')).value;
     var day = calculateDay();

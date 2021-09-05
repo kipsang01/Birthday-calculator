@@ -30,46 +30,46 @@ function displayName(){
     var gender = genderName();
     var day = calculateDay();
     if (day===0 && gender ==='male') {
-        document.getElementById('displayAkan').innerHTML = "Your Name is "+ maleNames[0];
+        document.getElementById('displayAkan').innerHTML = maleNames[0];
         }
         else if (day===0 && gender==='female') {
-            document.getElementById('displayAkan').innerHTML = "Your Name is "+ femaleNames[0];
+            document.getElementById('displayAkan').innerHTML = femaleNames[0];
         }
         else if (day===1 && gender==='male') {
-            document.getElementById('displayAkan').innerHTML = "Your Name is "+ maleNames[1];
+            document.getElementById('displayAkan').innerHTML = maleNames[1];
         }
         else if (day===1 && gender==='female') {
-            document.getElementById('displayAkan').innerHTML = "Your Name is "+ femaleNames[1];
+            document.getElementById('displayAkan').innerHTML = femaleNames[1];
         }
         else if (day===2 && gender==='male') {
-            document.getElementById('displayAkan').innerHTML = "Your Name is "+ maleNames[2];
+            document.getElementById('displayAkan').innerHTML = maleNames[2];
         }
         else if (day===2 && gender==='female') {
-            document.getElementById('displayAkan').innerHTML = "Your Name is "+ femaleNames[2];
+            document.getElementById('displayAkan').innerHTML = femaleNames[2];
         }
         else if (day===3 && gender==='male') {
-            document.getElementById('displayAkan').innerHTML = "Your Name is "+ maleNames[3];
+            document.getElementById('displayAkan').innerHTML = maleNames[3];
         }
         else if (day===3 && gender==='female') {
-            document.getElementById('displayAkan').innerHTML = "Your Name is "+ femaleNames[3];
+            document.getElementById('displayAkan').innerHTML = femaleNames[3];
         }
         else if (day===4 && gender==='male') {
-            document.getElementById('displayAkan').innerHTML = "Your Name is "+ maleNames[4];
+            document.getElementById('displayAkan').innerHTML = maleNames[4];
         }
         else if (day===4 && gender==='female') {
-            document.getElementById('displayAkan').innerHTML = "Your Name is "+ femaleNames[4];
+            document.getElementById('displayAkan').innerHTML =femaleNames[4];
         }
         else if (day===5 && gender==='male') {
-            document.getElementById('displayAkan').innerHTML = "Your Name is "+ maleNames[5];
+            document.getElementById('displayAkan').innerHTML =  maleNames[5];
         }
         else if (day===5 && gender==='female') {
-            document.getElementById('displayAkan').innerHTML = "Your Name is "+ femaleNames[5];
+            document.getElementById('displayAkan').innerHTML = femaleNames[5];
         }
         else if (day===6 && gender==='male') {
-            document.getElementById('displayAkan').innerHTML = "Your Name is "+ maleNames[6];
+            document.getElementById('displayAkan').innerHTML =  maleNames[6];
         }
         else if (day===6 && gender==='female') {
-            document.getElementById('displayAkan').innerHTML = "Your Name is "+ femaleNames[6];
+            document.getElementById('displayAkan').innerHTML = femaleNames[6];
         }
         else{
             document.getElementById('displayAkan').innerHTML = "invalid input";
